@@ -25,7 +25,7 @@ public class SolutionTestCases {
 		Integer[] B = { 1, 2, 2, 1, 2 };
 		Integer K = 4;
 		Integer M = 2;
-		Integer[] expectedSolution = {2};
+		Integer[] expectedSolution = {2,3};
 		Solution solutionProcessTest = new Solution();
 		Integer[] solution = solutionProcessTest.solution(K, M, B);
 		

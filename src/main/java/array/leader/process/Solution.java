@@ -29,7 +29,6 @@ public class Solution {
 			for (int[] segment : segments) {
 				Integer[] clonedArrayA = A.clone();
 				for (int segmentKey : segment) {
-					if (clonedArrayA[segmentKey] < M)
 						clonedArrayA[segmentKey] = clonedArrayA[segmentKey] + 1;
 				}
 
